@@ -71,4 +71,9 @@
   .swipe-active .swipe-indicator-right {
     @apply opacity-70 translate-x-4;
   }
+  
+  /* TikTok style 9:16 aspect ratio container */
+  .aspect-tiktok {
+    aspect-ratio: 9/16;
+  }
 }
