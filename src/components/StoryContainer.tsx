@@ -42,7 +42,7 @@ const StoryContainer = () => {
   
   return (
     <div 
-      className="fixed inset-0 overflow-hidden touch-none select-none bg-gray-900"
+      className="fixed inset-0 overflow-hidden touch-none select-none"
       ref={containerRef}
       {...bindSwipeHandlers}
     >
@@ -50,7 +50,7 @@ const StoryContainer = () => {
       <StoryProgress 
         totalStories={stories.length} 
         currentIndex={currentIndex} 
-        className="absolute top-0 left-0 right-0 z-10 p-4 max-w-[calc(9/16*100vh)] mx-auto"
+        className="absolute top-0 left-0 right-0 z-10 p-4"
       />
       
       {/* Story Views */}
